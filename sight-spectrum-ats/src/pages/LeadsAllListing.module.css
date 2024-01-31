@@ -1,0 +1,309 @@
+
+.nav_itemsnew {
+    width: 690px;
+    height: 32px;
+    display: flex;
+    gap: 5%;
+    justify-content:flex-end;
+    align-items: center;
+} 
+
+.popupContainer {
+    width: 350px;
+    display: flex;
+}
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.centeredLabel{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.popupField {
+    flex: 1;
+}
+
+.popupLabel {
+  width: 150px;
+}
+
+.popup1Field {
+  flex: 1;
+}
+
+.popup1Label {
+width: 150px;
+}
+
+.updateButton{
+    margin-left: 150px;
+}
+
+.cardContainer {
+  max-height: 90%; /* Set an appropriate maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-right: 17px; /* Add space between scrollbar and content */
+  box-sizing: content-box; /* Exclude padding and border from width */
+
+}
+.empname{
+  font-size: 21px;
+  margin-top: 4px;
+  
+}
+.companynamemargin{
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+
+.card {
+  height: 186px;
+  width: 100%; /* Card width is now 100% */
+  margin: 16px 0; /* Adjust margin to create space */
+  padding: 16px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 28px;
+}
+
+.column:last-child {
+  border-right: none;
+  
+}
+.column:nth-child(2){
+  display: flex;
+
+  justify-items: s;
+}
+
+.statusLabel {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.activeStatus {
+  color: white;
+  background-color:#08c808;
+  padding:1% 3%;
+  border-radius: 3px;
+}
+
+.passiveStatus {
+  color: white;
+  background-color:red;
+  padding:1% 3%;
+  border-radius: 3px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconWrapper {
+  position: relative;
+}
+
+.iconWrapper:hover::before {
+  content: attr(title);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+.icon {
+}
+
+.smallIcon {
+  width: 25px; 
+  height: 25px; 
+}
+
+.smallMargin {
+  margin-right: 10px; 
+}
+
+.contextMenuIcon {
+  cursor: pointer;
+}
+
+
+.cardContainer::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+
+.cardContainer::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 5px;
+}
+.dimcolor{
+  color:#787486;
+}
+
+.sourceStyle{
+  width: 60px;
+  text-align: left;
+  padding-right: 40px;
+}
+
+.dimcolorDesignation{
+  margin-top: 2px;
+  font-size: 13px;
+
+}
+
+.iconContainer >img {
+  height: 24px;
+  width: 24px;
+  margin:0px 3.5% ;
+
+}
+.column .ptag{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+
+.column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.employeeTable {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.employeeTable th,
+.employeeTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.employeeTable th {
+  background-color: #f2f2f2;
+}
+
+.label {
+  font-weight:600;
+  width: 35px;
+}
+
+
+
+.cardtitle {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.cardtitle h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card {
+  height: 186px;
+  width: 100%;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 8px;
+  padding-left: 28px; /* Adjust padding for space between vertical line and content */
+  position: relative; /* Add relative positioning to control line height */
+}
+
+/* Add a vertical line between columns */
+.column:before {
+  content: "";
+  position: absolute;
+  top: 8px; /* Adjust the top position to align with the horizontal borders */
+  bottom: 8px; /* Adjust the bottom position to align with the horizontal borders */
+  left: 0;
+  width: 1px;
+  background-color: #ddd; /* Color of the vertical line */
+}
+
+/* Remove the vertical line from the first column */
+.column:first-child:before {
+  content: none;
+}
+
+/* Remove border-right from the last column */
+.column:last-child {
+  border-right: none;
+}
+.titlerightmenu{
+  display: flex;
+  gap: 5px;
+  
+}
+
+
+.separator {
+  width: 60%; /* Adjust the width as needed */
+  height: 1px; /* Adjust the height as needed */
+  background-color: #ccc; /* Adjust the color as needed */
+  margin: 4px 0; /* Adjust the margin as needed */
+}
+
+.calloutStyle{
+ z-index: 1;
+padding-left: 30px;
+}
+
+.colon{
+  margin-left: 17px ;
+  text-align: center;
+}
+
+.messagebar{
+  margin-left: 80px;
+  display: flex;
+}
+

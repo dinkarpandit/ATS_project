@@ -1,0 +1,98 @@
+[
+  {
+    "dropDownJobRoleSalesoptions": [
+      {
+        "key": "India Staffing",
+        "text": "India Staffing"
+      },
+      {
+        "key": "Others",
+        "text": "Others"
+      },
+      {
+        "key": "Pre-Sales",
+        "text": "Pre-Sales"
+      },
+      {
+        "key": "Training & Development",
+        "text": "Training & Development"
+      },
+      {
+        "key": "UAE Team",
+        "text": "UAE Team"
+      },
+      {
+        "key": "US Staffing",
+        "text": "US Staffing"
+      },
+      {
+        "key": "Pre-Sales",
+        "text": "Pre-Sales"
+      },
+      {
+        "key": "flyer",
+        "text": "flyer"
+      },
+      {
+        "key": "flyer",
+        "text": "flyer"
+      },
+      {
+        "key": "wrwf",
+        "text": "wrwf"
+      }
+    ]
+  },
+  {
+    "dropDownJobRole": [
+      {
+        "key": "Founder",
+        "text": "Founder"
+      },
+      {
+        "key": "Head - IND",
+        "text": "Head - IND"
+      },
+      {
+        "key": "Head - UAE",
+        "text": "Head - UAE"
+      },
+      {
+        "key": "Head - US",
+        "text": "Head - US"
+      },
+      {
+        "key": "Senior Account Manager",
+        "text": "Senior Account Manager"
+      },
+      {
+        "key": "Business Development Manager",
+        "text": "Business Development Manager"
+      },
+      {
+        "key": "Account Manager",
+        "text": "Account Manager"
+      },
+      {
+        "key": "Business Executives",
+        "text": "Business Executives"
+      },
+      {
+        "key": "Account Lead",
+        "text": "Account Lead"
+      },
+      {
+        "key": "Team Lead",
+        "text": "Team Lead"
+      },
+      {
+        "key": "Recruiters",
+        "text": "Recruiters"
+      },
+      {
+        "key": "Support Team",
+        "text": "Support Team"
+      }
+    ]
+  }
+]
